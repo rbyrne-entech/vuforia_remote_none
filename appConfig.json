@@ -1,0 +1,53 @@
+{
+  "name": "byrne_remote_none",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "byrne_remote_none",
+  "thingworxServer": "https://gigacybm.studio-trial.thingworx.io",
+  "state": {
+    "orientation": "portrait"
+  },
+  "version": "1.28.1244",
+  "device": {
+    "name": "iphone",
+    "width": "375",
+    "height": "667"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "fragments": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "mainNavigationMenuStyle": "leftSideMenu",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/fonts",
+  "theme": "twx-light"
+}
